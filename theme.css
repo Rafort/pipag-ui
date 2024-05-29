@@ -7645,7 +7645,9 @@ p {
 @media screen and (max-width: 600px) {
   .tophm {
     padding-top: 2%;
-    padding-bottom: 4%; } }
+    padding-bottom: 4%; }
+  .hid1 {
+    display: hidden; } }
 
 @media screen and (max-width: 400px) {
   #nest .text-body {
