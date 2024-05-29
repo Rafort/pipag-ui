@@ -12,7 +12,7 @@
 
 <body>
   <!-- menu -->
-  <nav class="navbar navbar-expand fixed-top bg-secondary navbar-dark">
+  <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top">
     <div class="container">
       <!-- Topbar Navbar -->
       <p class="title-space mb-2 mt-2 text-light">Portal de negociação</p>
@@ -28,7 +28,7 @@
             <a class="dropdown-item" href="home.html">Início </a>
             <a class="dropdown-item" href="cadastro.html">Meu cadastro </a>
             <a class="dropdown-item" href="codigo.html">Alterar código </a>
-            <a class="dropdown-item" href="dividas.html">Dívidas para negociar </a>
+            <a class="dropdown-item" href="pendencias.html">Pendências</a>
             <a class="dropdown-item" href="acordos.html">Meus acordos </a>
             <a class="dropdown-item" href="pagamentos.html">Pagamentos </a>
             <div class="dropdown-divider"></div>
@@ -41,7 +41,7 @@
   <div class="bg-secondary py-3" id="header1">
     <div class="container">
       <div class="row text-center">
-        <div class="col-md-12 border-top border-light mx-2 px-0" style="">
+        <div class="col-md-12 border-top border-light mx-2 px-0"  >
           <p class="text-white my-4 score14">Fernanda Alvez</p>
         </div>
       </div>
@@ -62,7 +62,7 @@
     <div class="container">
       <div class="row d-flex justify-content-center">
         <div class="flex-wrap col-acao justify-content-around align-items-center d-flex mt-0 pt-0 px-0 col-lg-1" style="max-height:300px;">
-          <a class="btn btn-link" href="dividas.html"><img src="img/icon01.svg" class="mx-auto pb-2"><br>Pendências</a><a class="btn btn-link" href="acordos.html"><img src="img/icon02.svg" class="mx-auto py-2"><br>Acordos</a><a class="btn btn-link" href="pagamentos.html"><img src="img/icon03.svg" class="mx-auto py-2" height="35px"><br>Pagamentos</a>
+          <a class="btn btn-link" href="pendencias.html"><img src="img/icon01.svg" class="mx-auto pb-2"><br>Pendências</a><a class="btn btn-link" href="acordos.html"><img src="img/icon02.svg" class="mx-auto py-2"><br>Acordos</a><a class="btn btn-link" href="pagamentos.html"><img src="img/icon03.svg" class="mx-auto py-2" height="35px"><br>Pagamentos</a>
         </div>
         <div class="flex-wrap col-acao mt-0 pt-0 col-lg-4">
           <div class="row">
@@ -86,7 +86,7 @@
                   <p class="card-nb">R$ 1.200,00</p>
                 </div>
               </div>
-              <a class="btn btn-outline-primary btn-block mt-2" href="negociar-parcelado.html">Ver opções de pagamento</a>
+              <a class="btn btn-outline-primary btn-block mt-2" href="negociar.html">Ver opções de pagamento</a>
             </div>
           </div>
           <div class="card v">
@@ -105,11 +105,11 @@
                   <p class="card-nb">R$ 1.200,00</p>
                 </div>
               </div>
-              <a class="btn btn-outline-primary btn-block mt-2" href="negociar-parcelado.html">Ver opções de pagamento</a>
+              <a class="btn btn-outline-primary btn-block mt-2" href="negociar.html">Ver opções de pagamento</a>
             </div>
           </div>
           <div class="row py-3">
-            <div class="d-flex justify-content-around col-12"><a class="btn btn-link my-0 py-0 px-2 f11px underl" href="contratos.html">Ver todas as pendências</a></div>
+            <div class="d-flex justify-content-around col-12"><a class="btn btn-link my-0 py-0 px-2 f11px underl" href="dividas.html">Ver todas as pendências</a></div>
           </div>
         </div>
         <div class="flex-wrap col-acao mt-0 pt-0 col-lg-3">
@@ -131,8 +131,8 @@
                 <p>Acordo 4121009-4</p>
                 <p>R$ 180,00</p>
               </div>
-              <div class="resumo-line">
-                <p style="">Parc. 3 de 6</p>
+              <div class="resumo-line1">
+                <p  >Parc. 3 de 6</p>
                 <p>25/05/2024</p>
               </div>
               <a class="btn btn-block mt-2 btn-link bg-b01" href="pagar.html">Pagar agora</a>
@@ -143,15 +143,15 @@
                 <p>Acordo 6751009-2</p>
                 <p>R$ 220,00</p>
               </div>
-              <div class="resumo-line">
-                <p style="">Parc. 3 de 3</p>
+              <div class="resumo-line1">
+                <p  >Parc. 3 de 3</p>
                 <p>05/06/2024</p>
               </div>
               <a class="btn btn-block mt-2 btn-link bg-b01" href="pagar.html">Pagar agora</a>
             </div>
           </div>
           <div class="row py-3">
-            <div class="d-flex justify-content-around col-12"><a class="btn btn-link my-0 py-0 px-2 f11px underl" href="contratos.html">Ver todos os pagamentos</a></div>
+            <div class="d-flex justify-content-around col-12"><a class="btn btn-link my-0 py-0 px-2 f11px underl" href="pagamentos.html">Ver todos os pagamentos</a></div>
           </div>
         </div>
       </div>
@@ -160,7 +160,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
+   
 </body>
 
 </html>

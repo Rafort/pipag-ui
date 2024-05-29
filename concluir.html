@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="theme.css" type="text/css">
+  <title>Portal de negociação</title>
+</head>
+
+<body>
+  <!-- menu -->
+  <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top">
+    <div class="container justify-content-between flex-row d-inline-flex align-items-center">
+      <!-- Topbar Navbar -->
+      <a class="btn btn-link my-0 p-1" href="#" onclick="history.back()"><i class="fa fa-chevron-left m-0 text-light"></i></a>
+      <p class="title-space mb-2 mt-2 text-light">Fazer pagamento</p>
+      <ul class="navbar-nav text-secondary">
+        <a class="sidebar-brand d-flex align-items-right justify-content-right" href="index.html">
+        </a>
+        <!-- Nav Item - User Information -->
+        <li class="nav-item dropdown no-arrow text-secondary">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-bars fa-fw fa-lg text-white"></i>
+          </a>
+          <!-- Dropdown - User Information -->
+          <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+            <a class="dropdown-item" href="home.html">Início </a>
+            <a class="dropdown-item" href="cadastro.html">Meu cadastro </a>
+            <a class="dropdown-item" href="codigo.html">Alterar código </a>
+            <a class="dropdown-item" href="pendencias.html">Pendências</a>
+            <a class="dropdown-item" href="acordos.html">Meus acordos </a>
+            <a class="dropdown-item" href="pagamentos.html">Pagamentos </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="index.html"> Sair <i class="fa fa-sign-out fa-sm fa-fw mr-2 text-gray-400"></i></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Content -->
+  <div id="inside">
+    <div class="container">
+      <div class="row d-flex justify-content-center"  >
+        <div class="flex-wrap col-acao mt-0 pt-0 col-lg-5">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="title1">Acordo realizado!</p>
+              <p class="text-justify">Pronto. Agora é só pegar o seu boleto e pagar o valor referente ao primeiro vencimento. Fique atento à data do boleto. O não pagamento na data cancela o acordo.</p>
+              <div class="resumo-line">
+                <p class="card-nb">Parcela 1 de 3</p>
+              </div>
+              <div class="resumo-line">
+                <p>Valor do vencimento:</p>
+                <p class="card-nb">R$ 280,00</p>
+              </div>
+              <div class="resumo-line">
+                <p>Data do vencimento:</p>
+                <p class="card-nb">15/05/2024</p>
+              </div>
+              <p class="text-info mt-4 mb-1">Linha digitável:</p><a class="btn btn-link float-right mr-1" href="#"><i class="fa fa-clone text-body fa-lg mr-2 mt-1"></i> </a>
+              <p class="codebar">1238219379128379128519283712893</p>
+              <p class="text-right mb-1 f10px">Clique para copiar</p>
+              <a class="btn btn-outline-primary btn-block text-left mt-3 px-4" href="concluir.html">Baixar boleto <i class="fa fa-download pull-right fa-fw fa-lg mt-1"></i> </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 mt-4">
+              <p class="">Deseja receber o boleto por:</p>
+              <div class="row">
+                <div class="col-md-12 d-flex justify-content-around align-items-end pb-3"><a class="btn btn-link" href="#"><i class="fa fa-mobile fa-fw d-block mx-auto pb-2 fa-2x"></i>SMS</a><a class="btn btn-link" href="#"><i class="fa fa-whatsapp fa-fw d-block mx-auto pb-3 fa-lg"></i>WhatsApp</a><a class="btn btn-link" href="#"><i class="fa fa-envelope-o fa-fw d-block mx-auto fa-lg pb-3"></i>Email</a></div>
+                <div class="col-12">
+                  <hr>
+                </div>
+              </div>
+              <div class="row py-3">
+                <div class="d-flex justify-content-around col-12"><a class="btn btn-link my-0 py-0 px-2 f11px underl" href="pagamentos.html"  >Ir para pagamentos</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"  ></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"  ></script>
+   
+</body>
+
+</html>

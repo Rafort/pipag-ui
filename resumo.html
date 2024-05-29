@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="theme.css" type="text/css">
+  <title>Portal de negociação</title>
+</head>
+
+<body>
+  <!-- menu -->
+  <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top">
+    <div class="container justify-content-between flex-row d-inline-flex align-items-center">
+      <!-- Topbar Navbar -->
+      <a class="btn btn-link my-0 p-1" href="#" onclick="history.back()"><i class="fa fa-chevron-left m-0 text-light"></i></a>
+      <p class="title-space mb-2 mt-2 text-light">Confirmar acordo</p>
+      <ul class="navbar-nav text-secondary">
+        <a class="sidebar-brand d-flex align-items-right justify-content-right" href="index.html">
+        </a>
+        <!-- Nav Item - User Information -->
+        <li class="nav-item dropdown no-arrow text-secondary">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-bars fa-fw fa-lg text-white"></i>
+          </a>
+          <!-- Dropdown - User Information -->
+          <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+            <a class="dropdown-item" href="home.html">Início </a>
+            <a class="dropdown-item" href="cadastro.html">Meu cadastro </a>
+            <a class="dropdown-item" href="codigo.html">Alterar código </a>
+            <a class="dropdown-item" href="pendencias.html">Pendências</a>
+            <a class="dropdown-item" href="acordos.html">Meus acordos </a>
+            <a class="dropdown-item" href="pagamentos.html">Pagamentos </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="index.html"> Sair <i class="fa fa-sign-out fa-sm fa-fw mr-2 text-gray-400"></i></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Content -->
+  <div id="inside">
+    <div class="container">
+      <div class="row d-flex justify-content-center"  >
+        <div class="flex-wrap col-acao mt-0 pt-0 col-lg-5">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="title1">Resumo da negociação</p>
+              <hr>
+              <div class="resumo-line">
+                <p>Produto:</p>
+                <p>Cheque especial</p>
+              </div>
+              <div class="resumo-line">
+                <p>Contrato:</p>
+                <p>0411028578-88</p>
+              </div>
+              <div class="resumo-line">
+                <p>Valor original:</p>
+                <p>R$ 1.200,00</p>
+              </div>
+              <div class="resumo-line">
+                <p>Opção de pagamento:</p>
+                <p><b>3x R$ 280,00</b></p>
+              </div>
+              <div class="resumo-line">
+                <p>Desconto:</p>
+                <p>R$ 600,00</p>
+              </div>
+              <div class="resumo-line">
+                <p>1º vencimento:</p>
+                <p>15/05/2024</p>
+              </div>
+              <div class="resumo-line">
+                <p>Vencimento das parcelas:</p>
+                <p>15º dia do mês</p>
+              </div>
+              <div class="resumo-line">
+                <p>Forma de pagamento:</p>
+                <p>Boleto</p>
+              </div>
+              <div id="faqs" class="accordion">
+                <!-- Accordion item 1 -->
+                <div class="card5 my16">
+                  <div id="heading1" class="card-header5 my-2">
+                    <h5 class="my24">
+                      <a href="#" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1" class="nav-link collapsible-link p-0 pl-2 collapsed f11px">Detalhes do acordo</a>
+                    </h5>
+                  </div>
+                  <div id="collapse1" aria-labelledby="heading1" class="collapse"  >
+                    <div class="p-0 my-2">
+                      <div class="resumo-line1 pb-1">
+                        <p class="col-8 m-0 p-0" style="line-height: 15px;">Total das dívidas negociadas</p>
+                        <p>R$ 1.200,00</p>
+                      </div>
+                      <div class="resumo-line1 pb-1">
+                        <p class="col-8 m-0 p-0" style="line-height: 15px;">Valor total IOF</p>
+                        <p>R$ 15,30</p>
+                      </div>
+                      <div class="resumo-line1">
+                        <div class="col-8 m-0 p-0">
+                          <p class="m-0 p-0">Valor total financiado<br>
+                          </p>
+                          <p style="font-size:10px;margin-top:-3px;letter-spacing:-0.3px;" class="p-0">(valor total das dívidas renegociadas + IOF)</p>
+                        </div>
+                        <p>R$ 1.2150,30</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="btn btn-primary btn-block mt-4" href="concluir.html">Confirmar acordo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"  ></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"  ></script>
+   
+</body>
+
+</html>
