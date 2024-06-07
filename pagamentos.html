@@ -16,7 +16,7 @@
     <div class="container justify-content-between flex-row d-inline-flex align-items-center">
       <!-- Topbar Navbar -->
       <a class="btn btn-link my-0 p-1" href="#" onclick="history.back()"><i class="fa fa-chevron-left m-0 text-light"></i></a>
-      <p class="title-space mb-2 mt-2 text-light">Pendências</p>
+      <p class="title-space mb-2 mt-2 text-light">Pagamentos</p>
       <ul class="navbar-nav text-secondary">
         <a class="sidebar-brand d-flex align-items-right justify-content-right" href="index.html">
         </a>
@@ -43,71 +43,91 @@
   <!-- Content -->
   <div id="inside">
     <div class="container">
-      <div class="row d-flex justify-content-center">
+      <div class="row d-flex justify-content-center" style="">
         <div class="flex-wrap col-acao justify-content-around align-items-center d-flex mt-0 pt-0 px-0 d-none col-lg-1" style="max-height:300px;">
           <a class="btn btn-link d-none d-sm-block" href="pendencias.html"><img src="img/icon01.svg" class="mx-auto pb-2"><br>Pendências</a><a class="btn btn-link d-none d-sm-block" href="acordos.html"><img src="img/icon02.svg" class="mx-auto py-2"><br>Acordos</a><a class="btn btn-link d-none d-sm-block" href="pagamentos.html"><img src="img/icon03.svg" class="mx-auto py-2" height="35px"><br>Pagamentos</a>
         </div>
         <div class="flex-wrap col-acao mt-0 pt-0 col-lg-5">
           <div class="row">
             <div class="col-md-12">
-              <p class="title1">Selecione a pendência que deseja negociar</p>
+              <p class="title1">Programação de pagamentos</p>
+              <p class="text-justify">Confira os vencimentos em aberto dos acordos listados abaixo. Não atrase o pagamento dos boletos.</p>
             </div>
           </div>
           <div class="card mb-3">
-            <div class="card-header">
+            <div class="card-header5">
+              <p class="text-muted float-right pb-0 mb-0">Data de vencimento</p>
               <div class="row">
                 <div class="col-12 px-0 py-0 my-0">
-                  <h6 class="card-nb m-0">Cheque especial</h6>
-                  <p class="mb-0 pb-0 text-muted">Contrato 0411028578-88</p>
+                  <h6 class="card-nb m-0">Acordo 1314</h6>
                 </div>
               </div>
             </div>
             <div class="card-body">
               <div class="row">
-                <div class="col-6 col-lg-12">
-                  <p class="mb-0 small-tt">Valor em aberto:</p>
-                  <p class="card-nb">R$ 1.200,00</p>
+                <div class="col-6">
+                  <p class="small-tt mb-2">Parcela 2 de 3</p>
+                  <p class="card-nb2 mb-0">R$ 280,00</p>
+                </div>
+                <div class="col-6 text-right">
+                  <p class="card-nb2 mb-2">&nbsp;15/06/2024</p>
+                  <p class="mb-0">Em aberto<i class="fa fa-exclamation-circle fa-lg fa-fw ml-2 text-warning"></i></p>
+                </div>
+                <div class="col-md-12">
+                  <a class="btn btn-outline-primary btn-block px-4 my-4" href="#">Pagar com Pix </a>
+                  <a class="btn btn-outline-primary btn-block mt-3 px-4" href="#">Baixar boleto </a>
+                  <p class="text-info mt-4 mb-1">Linha digitável:</p><a class="btn btn-link float-right mr-1" href="#"><i class="fa fa-clone text-body fa-lg mr-2 mt-1"></i> </a>
+                  <p class="codebar">1238219379128379128519283712893</p>
+                  <p class="text-right mb-1 f10px">Clique para copiar</p>
                 </div>
               </div>
-              <a class="btn btn-outline-primary btn-block mt-2" href="negociar.html">Ver opções de pagamento</a>
+              <div class="row">
+                <div class="col-md-12 mt-4">
+                  <p class="">Deseja receber o boleto por:</p>
+                  <div class="row">
+                    <div class="col-md-12 d-flex justify-content-around align-items-end pb-4"><a class="btn btn-link" href="#"><i class="fa fa-mobile fa-fw d-block mx-auto pb-2 fa-2x"></i>SMS</a><a class="btn btn-link" href="#"><i class="fa fa-whatsapp fa-fw d-block mx-auto pb-3 fa-lg"></i>WhatsApp</a><a class="btn btn-link" href="#"><i class="fa fa-envelope-o fa-fw d-block mx-auto fa-lg pb-3"></i>Email</a></div>
+                  </div>
+                  <div class="d-flex justify-content-around col-12"><a class="btn btn-link py-0 px-2 f11px underl mt-4" href="pagamentos-acordo.html">Ver vencimentos deste acordo</a></div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="card mb-3">
-            <div class="card-header">
+            <div class="card-header5">
+              <p class="text-muted float-right pb-0 mb-0">Data de vencimento</p>
               <div class="row">
                 <div class="col-12 px-0 py-0 my-0">
-                  <h6 class="card-nb m-0">Cartão de crédito</h6>
-                  <p class="mb-0 pb-0 text-muted">Contrato 0411028578-88</p>
+                  <h6 class="card-nb m-0">Acordo 0238</h6>
                 </div>
               </div>
             </div>
             <div class="card-body">
               <div class="row">
-                <div class="col-6 col-lg-12">
-                  <p class="mb-0 small-tt">Valor em aberto:</p>
-                  <p class="card-nb">R$ 1.500,00</p>
+                <div class="col-6">
+                  <p class="small-tt mb-2">Parcela 4 de 6</p>
+                  <p class="card-nb2 mb-0">R$ 130,00</p>
+                </div>
+                <div class="col-6 text-right">
+                  <p class="card-nb2 mb-2">&nbsp;20/06/2024</p>
+                  <p class="mb-0">Em aberto<i class="fa fa-exclamation-circle fa-lg fa-fw ml-2 text-warning"></i></p>
+                </div>
+                <div class="col-md-12">
+                  <a class="btn btn-outline-primary btn-block px-4 my-4" href="#">Pagar com Pix </a>
+                  <a class="btn btn-outline-primary btn-block mt-3 px-4" href="#">Baixar boleto </a>
+                  <p class="text-info mt-4 mb-1">Linha digitável:</p><a class="btn btn-link float-right mr-1" href="#"><i class="fa fa-clone text-body fa-lg mr-2 mt-1"></i> </a>
+                  <p class="codebar">1238219379128379128519283712893</p>
+                  <p class="text-right mb-1 f10px">Clique para copiar</p>
                 </div>
               </div>
-              <a class="btn btn-outline-primary btn-block mt-2" href="negociar.html">Ver opções de pagamento</a>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <div class="card-header">
               <div class="row">
-                <div class="col-12 px-0 py-0 my-0">
-                  <h6 class="card-nb m-0">Empréstimo</h6>
-                  <p class="mb-0 pb-0 text-muted">Contrato 0411028578-88</p>
+                <div class="col-md-12 mt-4">
+                  <p class="">Deseja receber o boleto por:</p>
+                  <div class="row">
+                    <div class="col-md-12 d-flex justify-content-around align-items-end pb-4"><a class="btn btn-link" href="#"><i class="fa fa-mobile fa-fw d-block mx-auto pb-2 fa-2x"></i>SMS</a><a class="btn btn-link" href="#"><i class="fa fa-whatsapp fa-fw d-block mx-auto pb-3 fa-lg"></i>WhatsApp</a><a class="btn btn-link" href="#"><i class="fa fa-envelope-o fa-fw d-block mx-auto fa-lg pb-3"></i>Email</a></div>
+                  </div>
+                  <div class="d-flex justify-content-around col-12"><a class="btn btn-link py-0 px-2 f11px underl mt-4" href="pagamentos-acordo.html">Ver vencimentos deste acordo</a></div>
                 </div>
               </div>
-            </div>
-            <div class="card-body">
-              <div class="row">
-                <div class="col-6 col-lg-12">
-                  <p class="mb-0 small-tt">Valor em aberto:</p>
-                  <p class="card-nb">R$ 1.560,00</p>
-                </div>
-              </div>
-              <a class="btn btn-outline-primary btn-block mt-2" href="negociar.html">Ver opções de pagamento</a>
             </div>
           </div>
         </div>
@@ -119,7 +139,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-   
+  
 </body>
 
 </html>

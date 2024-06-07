@@ -7425,7 +7425,7 @@ p {
   margin: 0px; }
 
 .card-header5 h3 .collapsible-link {
-  font-size: 16px;
+  font-size: 13px;
   color: #3A4148; }
 
 .card-header5 p .collapsible-link {
@@ -7434,6 +7434,14 @@ p {
   margin-left: 150px;
   width: 42%;
   font-weight: 400; }
+
+.card-header-p {
+  font-weight: 300;
+  color: #3A4148;
+  background-color: transparent;
+  border-bottom: 1px solid #E1E1E4;
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 .subtt {
   font-size: 10px;
@@ -7597,7 +7605,7 @@ p {
   text-align: left;
   border-radius: 20px;
   border: solid 1px #B5BCC4;
-  font-size: 13px;
+  font-size: 12px;
   word-break: break-all; }
 
 .font15 {
@@ -8356,6 +8364,12 @@ label {
   font-family: 'Poppins', sans-serif;
   color: #3A4148; }
 
+.card-nb2 {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #4D545A; }
+
 .btn:not(:disabled):not(.disabled).active {
   box-shadow: none;
   background-color: #d2e2fc; }
@@ -8384,6 +8398,9 @@ label {
 
 .bg-b01 {
   background-color: #ebeeff; }
+
+.mr28p {
+  margin-right: 28px; }
 
 /* trash/
 
