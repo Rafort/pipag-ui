@@ -16,7 +16,7 @@
     <div class="container justify-content-between flex-row d-inline-flex align-items-center">
       <!-- Topbar Navbar -->
       <a class="btn btn-link my-0 p-1" href="#" onclick="history.back()"><i class="fa fa-chevron-left m-0 text-light"></i></a>
-      <p class="title-space mb-2 mt-2 text-light">Pagamentos</p>
+      <p class="title-space mb-2 mt-2 text-light">Alterar código</p>
       <ul class="navbar-nav text-secondary">
         <a class="sidebar-brand d-flex align-items-right justify-content-right" href="index.html">
         </a>
@@ -50,63 +50,14 @@
         <div class="flex-wrap col-acao mt-0 pt-0 col-lg-5">
           <div class="row">
             <div class="col-md-12">
-              <p class="title1">Vencimentos do acordo</p>
-              <p class="text-justify">Confira o status dos vencimentos do acordo realizado.</p>
-            </div>
-          </div>
-          <div class="card mb-3">
-            <div class="card-header-p">
-              <p class="text-muted float-right pb-0 mb-0"  >3x R$ 280,00</p>
-              <div class="row">
-                <div class="col-12 px-0 py-0 my-0">
-                  <h6 class="card-nb m-0">Acordo 1314</h6>
-                </div>
+              <p class="title1">Altere seu código de acesso</p>
+              <p class="text-justify mb-4">Preencha os campos abaixo para alterar seu código. O novo código deverá conter 6 números.</p>
+              <div class="form-group">
+                <input type="password" class="form-control form-control-sm my-3" placeholder="Código atual" name="codigo">
+                <input type="password" class="form-control form-control-sm my-2" name="novo-codigo" placeholder="Novo código">
+                <input type="password" class="form-control form-control-sm my-2" name="rep-novo-codigo" placeholder="Repetir novo código">
               </div>
-            </div>
-            <div class="card-body border-bottom pb-3">
-              <div class="row">
-                <div class="col-6">
-                  <p class="small-tt mb-0">Parcela 1 de 3</p>
-                  <p class="card-nb2 mb-0">15/05/2024</p>
-                </div>
-                <div class="col-6 text-right">
-                  <p class="mb-0 mr28p">Status:</p>
-                  <p class="mb-0 card-nb2">Pago!<i class="fa fa-check fa-lg fa-fw mx-1 text-success"></i></p>
-                </div>
-                <hr>
-              </div>
-            </div>
-            <div class="card-body border-bottom pb-3">
-              <div class="row">
-                <div class="col-6">
-                  <p class="small-tt mb-0">Parcela 2 de 3</p>
-                  <p class="card-nb2 mb-0">15/06/2024</p>
-                </div>
-                <div class="col-6 text-right">
-                  <p class="mb-0 mr28p">Status:</p>
-                  <p class="mb-0 card-nb2">Em aberto<i class="fa fa-exclamation-circle fa-lg fa-fw mx-1 text-warning"></i></p>
-                </div>
-                <hr>
-              </div>
-              <a class="btn btn-outline-primary px-4 mt-4 btn-block" href="pagamentos.html">Pagar agora</a>
-            </div>
-            <div class="card-body border-bottom pb-3">
-              <div class="row">
-                <div class="col-6">
-                  <p class="small-tt mb-0">Parcela 3 de 3</p>
-                  <p class="card-nb2 mb-0">15/07/2024</p>
-                </div>
-                <div class="col-6 text-right">
-                  <p class="mb-0 mr28p">Status:</p>
-                  <p class="mb-0 card-nb2">Indisponível<i class="fa fa-clock-o fa-lg fa-fw mx-1 text-body"></i></p>
-                </div>
-                <hr>
-              </div>
-            </div>
-            <div class="card-body pb-3">
-              <div class="row">
-                <div class="d-flex justify-content-around col-12"><a class="btn btn-link py-0 px-2 f11px underl mt-4" href="acordos.html">Ir para Acordos</a></div>
-              </div>
+              <a class="btn btn-outline-primary btn-block mt-4" href="confirmacao.html">Confirmar</a>
             </div>
           </div>
         </div>
